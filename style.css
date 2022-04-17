@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(70, 70, 70);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.title{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.scorebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:60px;
+    gap: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+
+.boxes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 200px;
+    margin: 70px;
+}
+
+
+.rock, .scissor, .paper {
+    width: 150px;
+    height: 150px;
+
+}
+
+
+button{
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(155, 155, 155);
+    font-size: large;
+    font-weight: 700;
+}
+
+.rulesbox{
+    display:flex;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.rules{
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+}
+
+.ruleslist {
+    display: flex;
+    font-size: large;
+    gap: 10px;
+    flex-direction: column;
+}
+

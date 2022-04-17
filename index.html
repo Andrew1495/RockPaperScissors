@@ -2,13 +2,76 @@
 <html lang="en">
 <head>
 
-    <script src="java.js"></script>
+    <script src="java.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="title" >Rock Paper Scissors</div>
+
+        <div class = "scorebox">
+            <div class ="p1">
+                <div class = "score">Player Score </div>  
+                    <div id="pScore" class="playerscore"></div>
+            </div>
+            <div class="p2">
+                <div class = "score">Computer Score</div>
+                    <div id="cScore" class="computerscore"></div>
+            </div>
+        </div>
+
+
+    <div class="container"></div>
+        <div class = "boxes computer">
+            <div class="computerchoice rock">
+                <img class = "rock computer" src = "Image/rock.png">
+            </div>
+            <div class="computerchoice paper">
+                <img class="paper computer" src="./Image/paper.png">
+            </div>
+            <div class="computerchoice scissor">
+                <img  class="scissor computer" src="./Image/scissors.png">
+            </div>
+        </div>
+
+
+
+
     
+        <div class = "boxes player">
+            <div class= "playerchoice rock">
+                <div><img class = "rock player" src="./Image/rock.png"></div>
+                <button id="rock">Rock</button>
+            </div>
+            <div class= "playerchoice paper">
+                <div><img class= "paper player" src="./Image/paper.png"></div>
+                <button id="paper">Paper</button>
+            </div>
+            <div class= "playerchoice scissor">
+                <div ><img class= "scissor player" src="./Image/scissors.png"></div>
+                <button id="scissor">scissors</button>
+            </div>
+        </div>
+
+
+<div class = "rulesbox">
+    <div class = "rules">Rules</div>
+        <ul class="ruleslist">
+            <li>Rock wins against scissors.</li>
+            <li>Scissors win against paper.</li>
+            <li>Paper wins against rock.</li>
+            <li>First to five wins</li>
+    
+        </ul>
+
+
+</div>
+
+
+
+
 </body>
 </html>
